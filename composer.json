@@ -1,0 +1,27 @@
+{
+    "name": "jamesrweb/codewars-api",
+    "description": "An API to fetch information from codewars about users, challenges and more.",
+    "type": "project",
+    "require": {
+        "slim/slim": "^4.10",
+        "slim/psr7": "^1.5",
+        "jamesrweb/codewars-api-client": "^3.0",
+        "symfony/dotenv": "^6.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jamesrweb\\CodewarsApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "James Robb",
+            "email": "47126579+jamesrweb@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "scripts": {
+        "start": "php -S localhost:8080 -t public"
+    }
+}
